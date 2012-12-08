@@ -1,0 +1,12 @@
+{application, smooth,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { smooth_app, []}},
+  {env, []}
+ ]}.
