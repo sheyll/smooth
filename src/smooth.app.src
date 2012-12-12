@@ -1,12 +1,11 @@
 {application, smooth,
  [
-  {description, ""},
+  {description, "A library application with nice utilities, for a smooth Erlang experience."},
   {vsn, "1"},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib
                  ]},
-  {mod, { smooth_app, []}},
   {env, []}
  ]}.
